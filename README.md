@@ -21,7 +21,7 @@
 
 ### SMS Using Twilio
 
-![SMS Using Twilio].(./images/SMS using twilio.png).
+![SMS Using Twilio](./images/sms-using-twilio.png)
 
 
 **Technologies Used**
