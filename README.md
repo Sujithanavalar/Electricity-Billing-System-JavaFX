@@ -1,6 +1,6 @@
 # **Electricity Billing System with SMS Notification**
 
-## A JavaFX application that provides electricity billing services with integrated SMS notifications via Twilio. The system supports secure login, dynamic bill calculation, and payment handling through a sleek graphical interface.
+ A JavaFX application that provides electricity billing services with integrated SMS notifications via Twilio. The system supports secure login, dynamic bill calculation, and payment handling through a sleek graphical interface.
 
 # **Features**
 - JavaFX GUI for user interaction
@@ -8,6 +8,16 @@
 - Bill calculation based on unit slabs
 - Payment processing with method selection and security code
 - SMS notifications sent via Twilio API
+
+# **Application Screenshots**
+
+### Login Page
+
+![Login Page](./images/loginpage.png)
+
+### Billing System UI
+
+![Billing System](./images/BillingSystem.png)
 
 
 **Technologies Used**
