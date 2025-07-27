@@ -49,13 +49,12 @@ cd ElectricityBillingSystem
 public static final String ACCOUNT_SID = "YOUR_ACCOUNT_SID";
 public static final String AUTH_TOKEN = "YOUR_AUTH_TOKEN";
 public static final String TWILIO_PHONE_NUMBER = "YOUR_TWILIO_PHONE_NUMBER";
-- Run the Application
-- Compile and run using your preferred IDE or via command line:
-javac -cp "lib/twilio-java-sdk.jar" twilio.java
-java -cp ".;lib/twilio-java-sdk.jar" twilio
 
-# **How It Works- Login Page: Validates hardcoded credentials**
-- Bill Calculation: Calculates bill based on slabs:
+
+# **How It Works**
+->Login Page: Validates hardcoded credentials
+-> Bill Calculation: Calculates bill based on slabs:
+
 - ₹1.50/unit for first 100 units
 - ₹2.50/unit for next 200 units
 - ₹3.50/unit for usage above 300 units
@@ -64,7 +63,7 @@ java -cp ".;lib/twilio-java-sdk.jar" twilio
 
 
 
-Notes- For simplicity, user credentials and security code are hardcoded
+**Notes**- For simplicity, user credentials and security code are hardcoded
 - Twilio phone number and recipient number should be in E.164 format (e.g., "+91XXXXXXXXXX")
 - Customize UI components and business logic as needed
 If you'd like help creating .gitignore, .classpath, or a license file to match this, I’d be happy to add that too. Just let me know how you'd like to polish it further.
